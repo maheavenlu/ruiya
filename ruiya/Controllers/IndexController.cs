@@ -15,6 +15,7 @@ namespace ruiya.Controllers
         }*/
 
         [Route("ruiya")]
+        [Route("")]
         public ActionResult GetRuiyaPage()
         {
             return View("RuiyaPage");
